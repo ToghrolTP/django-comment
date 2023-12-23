@@ -9,3 +9,12 @@ def home(request):
         "posts": available_posts,
     }
     return render(request, "blog/home.html", context)
+
+
+def post_list(request, slug):
+    post = Post.objects.get(slug=slug)
+
+    context = {
+        "post": post,
+    }
+    return render(request, "blog/post_list.html", context)
