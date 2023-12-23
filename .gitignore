@@ -1,0 +1,48 @@
+# Visual Studio
+.vscode/
+
+# Virtual Environment
+.venv/
+.virt/
+venv/
+virt/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.cache/
+
+# Logs
+*.log
+
+# Local development settings
+local_settings.py
+
+# Database
+db.sqlite3
+
+# Static files
+/staticfiles/
+
+# Media files
+/media/
+
+# Compiled Python bytecode
+__pycache__/
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore macOS metadata files
+.DS_Store
+
+# Ignore IDE files
+.idea/
+
+# Ignore temporary files
+*.swp
+*~
